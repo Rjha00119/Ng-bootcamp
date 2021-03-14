@@ -1,0 +1,15 @@
+form:active{
+    color:rgba(135, 219, 135, 0);
+
+}
+ form:button{
+     background: #0e0c0c;
+    color: lawngreen;
+ }
+ #my-button:hover{
+color: black;
+text-shadow: gray;
+justify-content: center;
+align-items: center;
+
+ }
