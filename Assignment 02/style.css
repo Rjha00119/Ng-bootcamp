@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+dl>div {
+    background: rgb(212, 202, 202);
+    padding: 24px 0 0 0;
+}
+
+dt {
+    background: #385b72;
+    border-bottom: 1px solid #b0b3b6;
+    border-top: 1px solid #0b5383;
+    color: #FFF;
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+}
+
+dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+}
+
+dd+dd {
+    border-top: 1px solid #CCC;
+}
